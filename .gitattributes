@@ -1,0 +1,6 @@
+source/models/xgboost_model.pkl filter=lfs diff=lfs merge=lfs -text
+source/notebooks/file_data.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.pkl filter=lfs diff=lfs merge=lfs -text
+*.pkl.gz filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
